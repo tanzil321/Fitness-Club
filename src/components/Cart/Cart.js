@@ -16,7 +16,10 @@ const Cart = ({cart}) => {
     
     return (
         <div className='cart'>
-            
+            <div>
+            <h2>Summary of activities</h2>
+            <img className='image' src={require("../../images/photo-1500648767791-00dcc994a43e.avif")} alt="" />
+            </div>
             
             <div className='details'>
                 <h3>Weight: 75kg</h3>
