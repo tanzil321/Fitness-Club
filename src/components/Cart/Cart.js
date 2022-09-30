@@ -1,15 +1,20 @@
-import React from 'react';
+import React, { useEffect, useState } from 'react';
 import './Cart.css'
 import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 const Cart = ({cart}) => {
+    let [time, setTime] = useState(JSON.parse(localStorage.getItem('items')) || 0)
     let total = 0;
     for(const data of cart){
         total= total+ data.time;
     }
     let amount=(val)=>{
-    document.getElementById('brk').innerText=val;
+        setTime(val)
+    
     }
+    useEffect(() => {
+        localStorage.setItem('items', JSON.stringify(time));
+    }, [time]);
 
     
     const notify = () => toast("Congratulations!! You're done with your activity");
@@ -40,8 +45,8 @@ const Cart = ({cart}) => {
             <div className='break-commit'>
             <p>Exercise time : {total} hour</p>
             </div>
-            <div className='break-commit'>
-            <span>Break time : <p id='brk'></p>min</span>
+            <div className='break-commit2'>
+            <span>Break time : {time} min</span>
             </div>
             <div>
             <button onClick={notify} className='btn-cart'>Activity Completed</button>
