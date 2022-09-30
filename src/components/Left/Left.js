@@ -31,7 +31,12 @@ const Left = () => {
             
            <div className="products-container">
             
-            
+            {
+                products.map(data=><Product key={data._id}
+                 data={data}
+                 handleAddToCart={handleAddToCart}
+                ></Product>)
+            }
            </div>
            <div className="cart-container">
             <Cart cart={cart}></Cart>
