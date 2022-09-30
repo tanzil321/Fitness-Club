@@ -1,0 +1,22 @@
+.left-container{
+    display: grid;
+    grid-template-columns: 4fr 1fr;
+}
+.products-container{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 20px;
+    margin: 50px 50px;
+    
+}
+.cart-container{
+    background-color: lightgray
+}
+.title{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+

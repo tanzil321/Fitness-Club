@@ -1,0 +1,47 @@
+[
+    {
+      "_id": "6335a9a5261f55fc1ff006e7",
+      "time":7,
+      "picture": "https://images.pexels.com/photos/4046658/pexels-photo-4046658.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+      "age": 35,
+      "name": "TreadMill Running"
+    },
+    {
+      "_id": "6335a9a5ab2116a08c2ebefc",
+      "para": " Choose The Weight You Can Really Lift. Not The Weight Your Ego Wants To Lift. ",
+      "time":5,
+      "picture": "https://images.pexels.com/photos/841130/pexels-photo-841130.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+      "age": 27,
+      "name": "Dead lift"
+    },
+    {
+      "_id": "6335a9a5b79c6cbc247e4bd2",
+      "time":2,
+      "picture": "https://images.pexels.com/photos/2294361/pexels-photo-2294361.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+      "age": 27,
+      "name": "Push Ups"
+    },
+    {
+      "_id": "6335a9a5d05fa03a1ea209f7",
+      "time":4,
+      "picture": "https://images.pexels.com/photos/40751/running-runner-long-distance-fitness-40751.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+      "age": 28,
+      "name": "Morning Walk"
+    },
+    {
+      "_id": "6335a9a5dea267e61b45f60b",
+      "time":3,
+      "picture": "https://images.pexels.com/photos/1051838/pexels-photo-1051838.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+      "age": 37,
+      "name": "Yoga at Morning"
+      
+    },
+    {
+      "_id": "6335a9a5af74391eba7cd892",
+      "time":2,
+      "picture": "https://images.pexels.com/photos/207779/pexels-photo-207779.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+      "age": 34,
+      "name": "Cycling"
+    }
+    
+  ]

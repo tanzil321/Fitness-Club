@@ -1,0 +1,11 @@
+.header{
+    height: 80px;
+    background-color: darkgrey;
+    display: flex;
+    align-items: center;
+    padding-left: 80px;
+    
+}
+.header img{
+    height: 70px;
+}
