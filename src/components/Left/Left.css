@@ -11,6 +11,7 @@
 }
 .cart-container{
     background-color: lightgrey;
+    box-shadow: 5px 5px 20px gray;
 }
 
 .title{

@@ -13,8 +13,10 @@
     padding: 1px;
     background: rgb(134, 59, 233);
     border-radius: 10px;
-    
-
+    color: aliceblue;
+}
+.break-num:hover{
+    background-color: rgb(78, 75, 93);
 }
 .break{
     display: flex;
@@ -36,4 +38,9 @@
     padding: 5px;
     background-color: aliceblue;
     border-radius: 10px;
+}
+.que1{
+    padding: 5px;
+    background-color: aliceblue;
+    border-radius: 5px;
 }

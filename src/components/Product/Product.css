@@ -7,11 +7,10 @@
 .product{
     width: 300px;
     height: 500px;
-    border: 1px solid #95A0A7;
     border-radius: 8px;
     padding: 8px;
-    
-    box-shadow: #95A0A7; 
+    border: none;
+    box-shadow: 5px 5px 20px gray; 
     
 }
 .btn-cart{
