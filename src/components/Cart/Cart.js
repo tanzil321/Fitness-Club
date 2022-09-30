@@ -12,7 +12,8 @@ const Cart = ({cart}) => {
     }
 
     
-    const notify = () => toast("Wow so easy!");
+    const notify = () => toast("Congratulations!! You're done with your activity");
+    
     
     return (
         <div className='cart'>
