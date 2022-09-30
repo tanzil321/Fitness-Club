@@ -10,8 +10,9 @@
     
 }
 .cart-container{
-    background-color: lightgray
+    background-color: lightgrey;
 }
+
 .title{
     display: flex;
     align-items: center;

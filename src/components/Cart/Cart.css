@@ -4,3 +4,36 @@
     padding: 30px 20px;
     text-align: center;
 }
+.image{
+    width: 60px;
+    border-radius: 50px;
+}
+.break-num{
+    cursor: pointer;
+    padding: 1px;
+    background: rgb(134, 59, 233);
+    border-radius: 10px;
+    
+
+}
+.break{
+    display: flex;
+    justify-content: space-around;
+    padding: 1px;
+    background-color: aliceblue;
+    border-radius: 10px;
+}
+.details{
+    display: flex;
+    justify-content: space-around;
+    padding: 5px;
+    background-color: aliceblue;
+    border-radius: 10px;
+}
+.break-commit{
+    
+   
+    padding: 5px;
+    background-color: aliceblue;
+    border-radius: 10px;
+}
