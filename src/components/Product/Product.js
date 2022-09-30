@@ -3,7 +3,7 @@ import './Product.css'
 
 const Product = (props) => {
     const {data,handleAddToCart} = props;
-    const {name,picture,time,age,para} = data;
+    const {name,picture,time,age,} = data;
 
     
     return (
